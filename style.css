@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font:popin;
+
+}
+#main{
+	width: 100%;
+	height: 50vh;
+	position: relative;
+}
+#logo{
+	display: flex;
+	justify-content: space-around;
+	/*border: 2px dashed green;*/
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+	/*z-index: 1;*/
+}
+#logo img{
+	height: 45px;
+}
+ul{
+	display: flex;
+	/*justify-content: space-around;*/
+	list-style-type: none;
+}
+ul a{
+	
+	height: 40px;
+	line-height: 43px;
+	margin: 0px 9px 0px 9px;
+	padding: 0px 22px;
+	display: flex;
+	/*border: 1px dashed red;*/
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: grey;
+}
+.hi{
+	text-decoration: none;
+	color: #39bfbd;
+	font-weight: 500;
+	font-size: 0.9em;
+	border-bottom: 2px solid #39bfbd
+}
+.hi:hover{
+	color: red;
+}
+/*.flex{
+	border: 2px solid red;
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}*/
+.one{
+	/*border: 1px dashed green;*/
+	height: 600px;
+	width: 800px;
+}
+.one img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+
+}
+.flex{
+	width: 90%;
+	/*border:1px solid red;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,-10%);
+	text-align: center;
+}
+.two{
+	width: 500px;
+	/*border: 1px dashed blue;*/
+
+
+}
+ul li a:hover{
+	background-color: grey;
+	color:cyan;
+	border-radius: 20px;
+}
+.two{
+
+	/*border: 1px solid red;*/
+	width: 500px;
+}
+
+.two h1{
+	font-size: 3.5em;
+	color: #1c3548;
+	line-height: 60px;
+	margin: 0px 0px 10px 0px;
+}
+.two p{
+	/*border: 1px dashed green;*/
+	font-size: 26px;
+}
+.two a{
+	width: 190px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #1db096;
+	border-radius: 20px;
+	/*border: 1px dashed orange;*/
+}
+.two div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex{
+	z-index: -1;
+}
